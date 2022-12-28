@@ -44,12 +44,11 @@ bind_address = 0.0.0.0
 ##### Intercting with cURL
 See top-level view (pipe through python -mjson.tool to prettify JSON response)<br/>
 `curl -X GET 'http://admin:<password>@fedora-server:5984' | python -mjson.tool`
-
+<br/>
 Create a test database:<br/>
-`curl -X PUT 'http://admin:<password>@fedora-server:5984/test' 
-
+`curl -X PUT 'http://admin:<password>@fedora-server:5984/test`
+<br/>
 Create a document:<br/>
-
 ```curl -X PUT 'http://admin:<password>@fedora-server:5984/test/doc1' -d {"name": "Polly"}```
 
 
