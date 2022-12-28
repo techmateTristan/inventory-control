@@ -52,6 +52,6 @@ bind_address = 0.0.0.0
 
 #### Interacting with couchdb via Browser ("Fauxton ")
 
-url: <ip-address>:5984/_utils
+url: \<ip-address\>:5984/_utils
 
  
