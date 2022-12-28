@@ -31,7 +31,7 @@ bind_address = 0.0.0.0
 ```
 3. Open port 5984 in zone 'home' and limit ip range to
  local network only via firewalld:<br/>
-`$ sudo firewall-cmd --zone=home --add-source-192.168.100.0/24`<br/> 
+`$ sudo firewall-cmd --zone=home --add-source=192.168.100.0/24`<br/> 
 `$ sudo firewall-cmd --zone=home --add-port=5984/tcp`<br/>
 `$ sudo firewall-cmd --zone=home --list-all`<br/>
 `$ sudo firewall-cmd --runtime-to-permanent`<br/>
