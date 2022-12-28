@@ -30,7 +30,7 @@ bind_address = 0.0.0.0
 ...
 ```
 3. Open port 5984 in firewalld:<br/>
-`$ sudo firewall-cmd --add-port=5984/tcp`
+`$ sudo firewall-cmd --add-port=5984/tcp`<br/>
 `$ sudo systemctl restart firewalld`
 
 4. Find server ip: `ip addr | grep "inet "` 
