@@ -11,9 +11,24 @@ date:  27-12-2022
 #### Installation on Fedora 37 as at 27-12-2022
 1. install snap if not already done so<br/>
 ```$ sudo dnf install snapd```
-2. Follow the exact instructions as described in the relevent page
-on the couchdb [Github Page](https://github.com/apache/couchdb-pkg/blob/main/README-SNAP.md)
-
+2. Follow the exact instructions as described in this
+ [page](https://github.com/apache/couchdb-pkg/blob/main/README-SNAP.md)
+ in the couchdb github repo
 #### Setup
+##### Opening "Fauxton" interface to local network
+1. Stop couchdb `$ sudo snap stop couchdb`
+2. edit the `local.ini` file to change the bind address:<br/>
+`sudo micro /var/snap/couchdb/9/etc/locval.ini`
+
+```
+[chttpd]
+port = 5984
+bind_address = 0.0.0.0
+...
+
+[httpd]
+bind_address = 0.0.0.0
+...
+```
 
 
