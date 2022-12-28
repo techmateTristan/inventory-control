@@ -51,6 +51,7 @@ bind_address = 0.0.0.0
 `curl -X GET 'http://admin:<password>@fedora-server:5984/test/doc1' | python -mjson.tool`
 
 7. Connecting via browser ("Fauxton")
+
 url: <ip-address>:5984/_utils
 
  
