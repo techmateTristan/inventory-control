@@ -42,15 +42,15 @@ bind_address = 0.0.0.0
 6. Connect to server in browser using address <server-ip>:5984 
 
 #### Interacting with couchdb via cURL
-See top-level view (pipe through python -mjson.tool to prettify JSON response)<br/>
+- See top-level view (pipe through python -mjson.tool to prettify JSON response)<br/>
 `curl -X GET 'http://admin:<password>@fedora-server:5984' | python -mjson.tool`
 <br/>
 <br/>
-Create a test database:<br/>
+- Create a test database:<br/>
 `curl -X PUT 'http://admin:<password>@fedora-server:5984/test`
 <br/>
 <br/>
-Create a document:<br/>
+- Create a document:<br/>
 ```curl -X PUT 'http://admin:<password>@fedora-server:5984/test/doc1' -d {"name": "Polly"}```
 
 
