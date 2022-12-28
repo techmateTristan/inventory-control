@@ -34,6 +34,8 @@ bind_address = 0.0.0.0
 $ sudo systemctl restart firewalld```
 
 4. Find server ip: `ip addr | grep "inet "` 
+
 5. Restart couchdb `sudo snap start couchdb`
+
 6. Connect to server in browser using address <server-ip>:5984 
 
