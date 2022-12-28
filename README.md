@@ -29,6 +29,11 @@ bind_address = 0.0.0.0
 bind_address = 0.0.0.0
 ...
 ```
-3. find server ip: `ip addr | grep "inet "` 
-4. Connect to server in browser using address <server-ip>:5984 
+3. Open port 5984 in firewalld:<br/>
+```$ sudo firewall-cmd --add-port=5984/tcp
+$ sudo systemctl restart firewalld```
+
+3. Find server ip: `ip addr | grep "inet "` 
+4. Restart couchdb `sudo snap start couchdb`
+5. Connect to server in browser using address <server-ip>:5984 
 
