@@ -17,9 +17,8 @@ date:  27-12-2022
 #### Setup
 ##### Opening "Fauxton" interface to local network
 1. Stop couchdb `$ sudo snap stop couchdb`
-2. edit the `local.ini` file to change the bind address:<br/>
+2. edit the `local.ini` file to change the bind address:<br/><br/>
 `sudo micro /var/snap/couchdb/9/etc/locval.ini`
-
 ```
 [chttpd]
 port = 5984
@@ -30,5 +29,6 @@ bind_address = 0.0.0.0
 bind_address = 0.0.0.0
 ...
 ```
-
+3. find server ip: `ip addr | grep "inet "` 
+4. Connect to server in browser using address <server-ip>:5984 
 
