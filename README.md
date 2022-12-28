@@ -15,7 +15,7 @@ date:  27-12-2022
  [page](https://github.com/apache/couchdb-pkg/blob/main/README-SNAP.md)
  in the couchdb github repo
 #### Setup
-##### Opening "Fauxton" interface to local network
+#### Opening interface to local network
 1. Stop couchdb `$ sudo snap stop couchdb`
 2. edit the `local.ini` file to change the bind address:<br/><br/>
 `sudo micro /var/snap/couchdb/9/etc/local.ini`
@@ -41,7 +41,7 @@ bind_address = 0.0.0.0
 
 6. Connect to server in browser using address <server-ip>:5984 
 
-##### Intercting with cURL
+#### Interacting with couchdb via cURL
 See top-level view (pipe through python -mjson.tool to prettify JSON response)<br/>
 `curl -X GET 'http://admin:<password>@fedora-server:5984' | python -mjson.tool`
 <br/>
