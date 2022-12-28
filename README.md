@@ -29,8 +29,12 @@ bind_address = 0.0.0.0
 bind_address = 0.0.0.0
 ...
 ```
-3. Open port 5984 in firewalld:<br/>
-`$ sudo firewall-cmd --add-port=5984/tcp`<br/>
+3. Open port 5984 in zone 'home' and limit ip range to
+ local network only via firewalld:<br/>
+`$ sudo firewall-cmd --zone=home --add-source-192.168.100.0/24`<br/> 
+`$ sudo firewall-cmd --zone=home --add-port=5984/tcp`<br/>
+`$ sudo firewall-cmd --zone=home --list-all`<br/>
+`$ sudo firewall-cmd --runtime-to-permanent`<br/>
 `$ sudo systemctl restart firewalld`
 
 4. Find server ip:<br/>
@@ -52,6 +56,6 @@ bind_address = 0.0.0.0
 
 #### Interacting with couchdb via Browser ("Fauxton ")
 
-url: \<ip-address\>:5984/_utils
+**url:**  \<ip-address\>:5984/_utils
 
  
