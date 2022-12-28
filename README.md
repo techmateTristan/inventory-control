@@ -1,5 +1,5 @@
 # Techmate Inventory Management Project
-author: Tristan Garside 
+author: Tristan Garside <br/>
 date:  27-12-2022
 
 ## Overview
@@ -33,7 +33,7 @@ bind_address = 0.0.0.0
 ```$ sudo firewall-cmd --add-port=5984/tcp
 $ sudo systemctl restart firewalld```
 
-3. Find server ip: `ip addr | grep "inet "` 
-4. Restart couchdb `sudo snap start couchdb`
-5. Connect to server in browser using address <server-ip>:5984 
+4. Find server ip: `ip addr | grep "inet "` 
+5. Restart couchdb `sudo snap start couchdb`
+6. Connect to server in browser using address <server-ip>:5984 
 
