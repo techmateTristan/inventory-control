@@ -39,8 +39,7 @@ bind_address = 0.0.0.0
 5. Restart couchdb:<br/>
  `sudo snap start couchdb`
 
-6. Connect to server in browser using address <server-ip>:5984 
-
+6. 
 #### Interacting with couchdb via cURL
 - See top-level view (pipe through python -mjson.tool to prettify JSON response)<br/>
 `curl -X GET 'http://admin:<password>@fedora-server:5984' | python -mjson.tool`
@@ -51,5 +50,7 @@ bind_address = 0.0.0.0
 - View that document:<br/>
 `curl -X GET 'http://admin:<password>@fedora-server:5984/test/doc1' | python -mjson.tool`
 
+7. Connecting via browser ("Fauxton")
+url: <ip-address>:5984/_utils
 
  
