@@ -35,7 +35,13 @@ bind_address = 0.0.0.0
 `$ sudo firewall-cmd --zone=home --add-port=5984/tcp`<br/>
 `$ sudo firewall-cmd --zone=home --list-all`<br/>
 `$ sudo firewall-cmd --runtime-to-permanent`<br/>
-`$ sudo systemctl restart firewalld`
+`$ sudo systemctl restart firewalld`<br/>
+
+optionally pen-test the port from a computer
+ external to the network (when couchdb seervice
+  is running):<br/>
+`$ sudo nmap -ST -p 5984 <ip-address>`<br/>
+port should return "filtered"
 
 4. Find server ip:<br/>
 `ip addr | grep "inet "` 
