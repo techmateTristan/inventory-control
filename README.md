@@ -48,6 +48,8 @@ bind_address = 0.0.0.0
 `curl -X PUT 'http://admin:<password>@fedora-server:5984/test`
 - Create a document:<br/>
 ```curl -X PUT 'http://admin:<password>@fedora-server:5984/test/doc1' -d {"name": "Polly"}```
+- View that document:<br/>
+`curl -X GET 'http://admin:<password>@fedora-server:5984/test/doc1' | python -mjson.tool`
 
 
  
