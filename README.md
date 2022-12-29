@@ -30,7 +30,7 @@ bind_address = 0.0.0.0
 ...
 ```
 3. Open port 5984 in zone 'home' and limit ip range to
- local network only via firewalld:<br/>
+ local network only, via firewalld:<br/>
 `$ sudo firewall-cmd --zone=home --add-source=192.168.100.0/24`<br/> 
 `$ sudo firewall-cmd --zone=home --add-port=5984/tcp`<br/>
 `$ sudo firewall-cmd --zone=home --list-all`<br/>
@@ -38,13 +38,13 @@ bind_address = 0.0.0.0
 `$ sudo systemctl restart firewalld`<br/>
 
 optionally pen-test the port from a computer
- external to the network (when couchdb seervice
+ external to the network (when couchdb service
   is running):<br/>
-`$ sudo nmap -ST -p 5984 <ip-address>`<br/>
+`$ sudo nmap -sT -p 5984 <ip-address>`<br/><br/>
 port should return "filtered"
 
-4. Find server ip:<br/>
-`ip addr | grep "inet "` 
+4. Find and note down server ip:<br/>
+`ip addr | grep "inet " | tail -1` 
 
 5. Restart couchdb:<br/>
  `sudo snap start couchdb`
@@ -52,13 +52,13 @@ port should return "filtered"
  
 #### Interacting with couchdb via cURL
 - See top-level view (pipe through python -mjson.tool to prettify JSON response)<br/>
-`curl -X GET 'http://admin:<password>@fedora-server:5984' | python -mjson.tool`
+`curl -X GET 'http://admin:<password>@<ip-address>:5984' | python -mjson.tool`
 - Create a test database:<br/>
-`curl -X PUT 'http://admin:<password>@fedora-server:5984/test`
+`curl -X PUT 'http://admin:<password>@<ip-address>:5984/test`
 - Create a document:<br/>
-```curl -X PUT 'http://admin:<password>@fedora-server:5984/test/doc1' -d {"name": "Polly"}```
+```curl -X PUT 'http://admin:<password>@<ip-address>:5984/test/doc1' -d {"name": "Polly"}```
 - View that document:<br/>
-`curl -X GET 'http://admin:<password>@fedora-server:5984/test/doc1' | python -mjson.tool`
+`curl -X GET 'http://admin:<password>@<ip-address>:5984/test/doc1' | python -mjson.tool`
 
 #### Interacting with couchdb via Browser ("Fauxton ")
 
