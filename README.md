@@ -4,6 +4,19 @@ date:  27-12-2022
 
 ## Overview
 
+A small database with a web frontend to manage an inventory
+ principally of devices (laptops, desktops, tablets and phones).
+ Additionally the inventory will include office furniture,
+ stationery and miscellaneous items.   
+
+As the main focus 'devices' will be richer with fields such as
+ product IDs, OS, unique IDs, and fields relating to state
+ and pending maintenance etc.
+
+All CRUD operations are to be supported with a range of useful 
+ views.     
+
+
 ## Installation and Setup of tools
 
 ### [couchdb](https://docs.couchdb.org/en/3.2.2-docs/index.html)
