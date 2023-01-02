@@ -21,7 +21,7 @@ These specifications are derived from a spreadsheet that currently
 ### Common to all Item Classes
 
 
-| field		| field description            | explanation |
+| field		| field description            | additional  |
 |-----------|------------------------------|-------------|
 | _id |  a unique id issued by the db |
 | date | date entered into db / last checked |
@@ -42,8 +42,8 @@ These specifications are derived from a spreadsheet that currently
 
 ### Specific to Devices
 
-| field     | field description |
-|-----------|-------------------|
+| field     | field description | additional |
+|-----------|-------------------|------------|
 | alt_id | unique indentifer or name for item |
 | form_factor | laptop, desktop, tablet, phone, other |
 | os | Operating System |
