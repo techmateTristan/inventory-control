@@ -21,24 +21,24 @@ These specifications are derived from a spreadsheet that currently
 ### Common to all Item Classes
 
 
-| field		| field description            |
-|-----------|-------------------------------|
+| field		| field description            | explanation |
+|-----------|------------------------------|-------------|
 | _id |  a unique id issued by the db |
 | date | date entered into db / last checked |
 | qty | quantity |
-| Item Class |  device, tool, misc_tech, stationery, furniture, misc_general |
-| Desc | Description |
-| Maker | Manufacturer |
-| Model | retail name |
-| Product ID | manufacturer ID |
-| Storage | Storage location |
-| Working State | Yes / No / Unknown |
-| req_main | Yes / No (requires maintenance job) |
+| item_class |  device, tool, misc_tech, stationery, furniture, misc_general |
+| desc | Description |
+| maker | Manufacturer |
+| model | retail name |
+| product_id | manufacturer ID |
+| stored | Storage location |
+| working_state | Yes / No / Unknown |
+| req_main | Yes / No | requires maintenance job |
 | main_desc | Description of maintenance job |
 | main_date | maintenance job due date |
-| In Use in office or remote | Yes / No | 
-| Pending donation / sale | Yes / No |
-| Comments | Additional info on Item |
+| in_use | Yes / No | in office or remote | 
+| pending_donation_sale | Yes / No |
+| comments | Additional info on Item |
 
 ### Specific to Devices
 
@@ -46,10 +46,10 @@ These specifications are derived from a spreadsheet that currently
 |-----------|-------------------|
 | alt_id | unique indentifer or name for item |
 | form_factor | laptop, desktop, tablet, phone, other |
-| OS | Operating System |
-| OS update | last OS time |
-| Sanitized | Yes / No (data wipe performed)
-| Reset | Factory Reset or bloatware removed |
+| os | Operating System |
+| os_update_date | last OS update time |
+| sanitized | Yes / No (data wipe performed)
+| reset | Factory Reset or bloatware removed |
  
 
  
