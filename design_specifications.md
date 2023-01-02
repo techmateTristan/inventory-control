@@ -16,7 +16,7 @@ These specifications are derived from a spreadsheet that currently
 	- Desktops
 	- Tablets
 	- Phones
- 
+	- Other 
 
 ### Common to all Item Classes
 
@@ -36,7 +36,7 @@ These specifications are derived from a spreadsheet that currently
 | req_main | Yes / No (requires maintenance job) |
 | main_desc | Description of maintenance job |
 | main_date | maintenance job due date |
-| In Use | Yes / No (currently being used in office) | 
+| In Use in office or remote | Yes / No | 
 | Pending donation / sale | Yes / No |
 | Comments | Additional info on Item |
 
