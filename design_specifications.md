@@ -10,6 +10,8 @@ These specifications are derived from a spreadsheet that currently
 Covers all consumer-device items, and these base fields are in common with
  all items:
 
+|field    | field description             |
+|---------|-------------------------------|
 | **_id** |  a unique id issued by the db |
 |---------|-------------------------------|
 
