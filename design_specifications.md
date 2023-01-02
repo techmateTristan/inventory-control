@@ -5,6 +5,19 @@ These specifications are derived from a spreadsheet that currently
  
 ## Item Types 
 
+- Stationery
+- Office furniture
+- Office equipment
+- Connectors
+- Miscellaneous technology
+- Miscellaneos general
+- devices
+	- Laptops
+	- Desktops
+	- Tablets
+	- Phones
+ 
+
 ### Base Types
 
 Covers all items
@@ -21,7 +34,7 @@ Covers all items
 | Storage | Storage location |
 | Working | Yes / No /unknown |
 | In Use | y/n being used in the office | 
-
+| Comments | Additional info on Item |
 
 
  
