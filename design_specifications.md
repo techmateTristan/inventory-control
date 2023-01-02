@@ -51,7 +51,7 @@ These specifications are derived from a spreadsheet that currently
 | form_factor | laptop, desktop, tablet, phone, other |
 | os | Operating System |
 | os_update_date | last OS update time |
-| sanitized | Yes / No (data wipe performed) | personal data |
+| sanitized | Yes / No (data wipe performed) | re: personal data |
 | reset | Factory Reset or bloatware removed |
  
 
