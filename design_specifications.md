@@ -44,11 +44,11 @@ These specifications are derived from a spreadsheet that currently
 
 | field     | field description | additional |
 |-----------|-------------------|------------|
-| alt_id | unique indentifer or name for item |
+| alt_id | unique indentifer or name for item | "Penny", "NC8051" |
 | form_factor | laptop, desktop, tablet, phone, other |
 | os | Operating System |
 | os_update_date | last OS update time |
-| sanitized | Yes / No (data wipe performed)
+| sanitized | Yes / No (data wipe performed) | personal data |
 | reset | Factory Reset or bloatware removed |
  
 
