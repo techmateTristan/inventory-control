@@ -12,13 +12,6 @@ Covers all items
 |field		| field description            |
 |-----------|-------------------------------|
 | _id |  a unique id issued by the db |
-|---------|-------------------------------|
-
-
-| **Item Type** | currently 'device', 'misc_tech', 'stationery',
- 'furniture' 'misc_general' |q
-3. **qty** - Quanity
-4. **description** 
-4. **in-use** -  if is it being used in the office
-5. 
+| Item Type |  device, misc_tech, stationery,  furniture, misc_general |
+ 
     
