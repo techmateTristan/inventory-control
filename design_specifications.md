@@ -30,9 +30,14 @@ These specifications are derived from a spreadsheet that currently
 | Desc | Description |
 | Maker | Manufacturer |
 | Model | retail name |
+| Product ID | manufacturer ID |
 | Storage | Storage location |
 | Working State | Yes / No / Unknown |
-| In Use | Yes / No  i.e. currently being used in the office | 
+| req_main | Yes / No (requires maintenance job) |
+| main_desc | Description of maintenance job |
+| main_date | maintenance job due date |
+| In Use | Yes / No (currently being used in office) | 
+| Pending donation / sale | Yes / No |
 | Comments | Additional info on Item |
 
 ### Specific to Devices
@@ -41,8 +46,11 @@ These specifications are derived from a spreadsheet that currently
 |-----------|-------------------|
 | alt_id | unique indentifer or name for item |
 | form_factor | laptop, desktop, tablet, phone, other |
-| req_main | Yes / No requires maintenance job |
 | OS | Operating System |
+| OS update | last OS time |
+| Sanitized | Yes / No (data wipe performed)
+| Reset | Factory Reset or bloatware removed |
+ 
 
  
     
