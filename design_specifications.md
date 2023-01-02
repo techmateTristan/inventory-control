@@ -7,12 +7,11 @@ These specifications are derived from a spreadsheet that currently
 
 ### Base Types
 
-Covers all consumer-device items, and these base fields are in common with
- all items:
+Covers all items
 
-|field    | field description             |
-|---------|-------------------------------|
-| **_id** |  a unique id issued by the db |
+|field		| field description            |
+|-----------|-------------------------------|
+| _id |  a unique id issued by the db |
 |---------|-------------------------------|
 
 
