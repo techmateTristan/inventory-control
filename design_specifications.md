@@ -47,7 +47,7 @@ These specifications are derived from a spreadsheet that currently
 | owner_name | techmate or client |
 | owner_email | |
 | owner_phone | | 
-| alt_id | unique indentifer or name for item | "Penny", "NC8051" |
+| alt_id | unique indentifer or name for item | e.g. "Penny", "NC8051" |
 | form_factor | laptop, desktop, tablet, phone, other |
 | os | Operating System |
 | os_update_date | last OS update time |
