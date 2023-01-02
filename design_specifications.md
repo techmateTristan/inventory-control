@@ -27,7 +27,7 @@ These specifications are derived from a spreadsheet that currently
 | date | date entered into db / last checked |
 | qty | quantity |
 | item_class |  device, tool, misc_tech, stationery, furniture, misc_general |
-| desc | Description |
+| desc | Description | e.g "Paperclips"
 | maker | Manufacturer |
 | model | retail name |
 | product_id | manufacturer ID |
