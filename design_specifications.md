@@ -12,6 +12,7 @@ Covers all items
 |field		| field description            |
 |-----------|-------------------------------|
 | _id |  a unique id issued by the db |
-| Item Type |  device, misc_tech, stationery,  furniture, misc_general |
+| Item Type |  device, misc_tech, stationery,
+  furniture, misc_general |
  
     
