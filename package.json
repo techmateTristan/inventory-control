@@ -1,0 +1,25 @@
+{
+  "name": "techmate-inventory-project",
+  "version": "1.0.0",
+  "description": "Techmate Inventory Control App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techmateTristan/inventory-control.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ejs",
+    "express",
+    "couchdb"
+  ],
+  "author": "Tristan Garside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techmateTristan/inventory-control/issues"
+  },
+  "homepage": "https://github.com/techmateTristan/inventory-control#readme"
+}
