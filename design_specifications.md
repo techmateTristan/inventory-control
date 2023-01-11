@@ -24,8 +24,7 @@ These specifications are derived from a spreadsheet that currently
 | field		| field description            | additional  |
 |-----------|------------------------------|-------------|
 | _id |  a unique id issued by the db |
-| date | date entered into db / last checked | YYYY-MM-DD,
- [link](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/datefun.html#date-formats)
+| date | date entered into db / last checked | YYYY-MM-DD, [link](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/datefun.html#date-formats [link](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/datefun.html#date-formats)
 | qty | quantity |
 | item_class |  device, tool, misc_tech, stationery, furniture, misc_general |
 | desc | Description | e.g "Paperclips"
