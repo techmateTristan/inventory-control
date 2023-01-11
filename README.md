@@ -77,4 +77,13 @@ port should return "filtered"
 
 **url:**  \<ip-address\>:5984/_utils
 
+### NodeJS and npm
+
+`$ sudo dnf install nodejs`<br/>
+npm (node package manager) is installed at ther same time
+ as a (weak) dependency
+
+`$ npm init`<br/>
+initialises the package.json which organises all the modules
+ the project will use
  
