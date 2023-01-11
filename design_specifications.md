@@ -1,7 +1,7 @@
 # Design Specifications
 
 These specifications are derived from a spreadsheet that currently 
- works as an inverntory, with some additions
+ works as an inventory, with some additions
  
 ## Item CLasses
 
