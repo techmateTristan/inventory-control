@@ -21,24 +21,24 @@ These specifications are derived from a spreadsheet that currently
 ### Common to all Item Classes
 
 
-| field		| field description            | additional  |
-|-----------|------------------------------|-------------|
-| _id |  a unique id issued by the db |
-| date | date entered into db / last checked | YYYY-MM-DD, [link](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/datefun.html#date-formats)
-| qty | quantity |
-| item_class |  device, tool, misc_tech, stationery, furniture, misc_general |
-| desc | Description | e.g "Paperclips"
-| maker | Manufacturer |
-| model | retail name |
-| product_id | manufacturer ID |
-| stored | Storage location |
-| working_state | Yes / No / Unknown |
-| req_main | Yes / No | requires maintenance job |
-| main_desc | Description of maintenance job |
-| main_date | maintenance job due date |
-| in_use | Yes / No | in office or remote | 
-| pending_donation_sale | Yes / No |
-| comments | Additional info on Item |
+| field		|req| field description            | datatype    | additional |
+|-----------|---|------------------------------|-------------|------------|
+| _id | Y |  a unique id issued by the db | string |
+| date | Y | date entered into db / last checked | string | YYYY-MM-DD, [link](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/datefun.html#date-formats)
+| qty | Y | quantity | int |
+| item_class | Y |  device, tool, misc_tech, stationery, furniture, misc_general | string |
+| stored | Y | string |Storage location |
+| desc | Y | string | Description | string | e.g "Paperclips" |
+| maker | N | string | Manufacturer |
+| model | N | string | retail name |
+| product_id | N | string | manufacturer ID |
+| working | N | string | Yes / No / Unknown |
+| req_main |  N | Boolean | requires maintenance job |
+| main_desc | N | string | Description of maintenance job |
+| main_date | N | string | maintenance job due date YYYY-MM-DD |
+| in_use | N | Boolean | in office or remote | 
+| pending_donation_sale | N | Boolean |
+| comments | N | string |Additional info on Item |
 
 ### Specific to Devices
 
