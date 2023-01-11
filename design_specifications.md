@@ -28,7 +28,7 @@ These specifications are derived from a spreadsheet that currently
 | qty	 | Y |int | quantity | 
 | item_class | Y | string | device, tool, misc_tech, stationery, furniture, misc_general |
 | stored | Y | string |Storage location |
-| desc   | Y | string | Description | string | e.g "Paperclips" |
+| desc   | Y | string | Description | e.g "Paperclips" |
 | maker | N | string | Manufacturer |
 | model | N | string | retail name |
 | product_id | N | string | manufacturer ID |
@@ -42,17 +42,17 @@ These specifications are derived from a spreadsheet that currently
 
 ### Specific to Devices
 
-| field     | field description | additional |
-|-----------|-------------------|------------|
-| owner_name | techmate or client |
-| owner_email | |
-| owner_phone | | 
-| alt_id | unique indentifer or name for item | e.g. "Penny", "NC8051" |
-| form_factor | laptop, desktop, tablet, phone, other |
-| os | Operating System |
-| os_update_date | last OS update time |
-| sanitized | Yes / No (data wipe performed) | re: personal data |
-| reset | Factory Reset or bloatware removed |
+| field  |req| datatype | field description | additional |
+|--------|---|----------|-------------------|------------|
+| owner_name | Y | string | techmate or client |
+| owner_email | N | string |
+| owner_phone | N | string |
+| alt_id | Y | string | unique indentifer or name for item | e.g. "Penny", "NC8051" |
+| form_factor | Y | string | laptop, desktop, tablet, phone, other |
+| os | N | string |Operating System |
+| os_update_date | N | string |YYYY-MM-DD; last OS update time |
+| sanitized | N | Boolean | data wipe performed re. personal data |
+| reset | N | Boolean | Factory Reset or bloatware removed |
  
 
  
