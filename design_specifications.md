@@ -21,14 +21,14 @@ These specifications are derived from a spreadsheet that currently
 ### Common to all Item Classes
 
 
-| field		|req| field description            | datatype    | additional |
-|-----------|---|------------------------------|-------------|------------|
-| _id | Y |  a unique id issued by the db | string |
-| date | Y | date entered into db / last checked | string | YYYY-MM-DD, [link](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/datefun.html#date-formats)
-| qty | Y | quantity | int |
-| item_class | Y |  device, tool, misc_tech, stationery, furniture, misc_general | string |
+| field	|req| datatype | field description | additional |
+|-------|---|----------|-------------------|------------|
+| _id	 | Y | string  | a unique id issued by the db |
+| date   | Y |  string | date entered into db / last checked | YYYY-MM-DD, [link](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/datefun.html#date-formats)
+| qty	 | Y |int | quantity | 
+| item_class | Y | string | device, tool, misc_tech, stationery, furniture, misc_general |
 | stored | Y | string |Storage location |
-| desc | Y | string | Description | string | e.g "Paperclips" |
+| desc   | Y | string | Description | string | e.g "Paperclips" |
 | maker | N | string | Manufacturer |
 | model | N | string | retail name |
 | product_id | N | string | manufacturer ID |
