@@ -36,7 +36,7 @@ These specifications are derived from a spreadsheet that currently
 | working | N | string | Yes / No / Unknown |
 | main_req |  N | Boolean | requires maintenance job |
 | main_desc | N | string | Description of maintenance job |
-| main_date | N | string | maintenance job due date YYYY-MM-DD |
+| main_date | N | string | maintenance job due | date YYYY-MM-DD |
 | pending_donation_sale | N | Boolean |
 | comments | N | string |Additional info on Item |
 
