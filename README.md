@@ -84,6 +84,12 @@ npm (node package manager) is installed at ther same time
  as a (weak) dependency
 
 `$ npm init`<br/>
-initialises the package.json which organises all the modules
+initialises the package.json which organises all the modules (dependencies)
  the project will use
- 
+
+### Node Dependencies
+
+`$ npm install express body-parser ejs node-couchdb --save`<br/>
+
+
+
