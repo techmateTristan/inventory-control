@@ -3,11 +3,13 @@
 These specifications are derived from a spreadsheet that currently 
  works as an inventory, with some additions
  
-> Data is like garbage - you'd better know what you're going to do with it before you collect it
+> Data is like garbage - you'd better know what you're 
+> going to do with it before you collect it
+> - Anon
+ 
+## Iteratrive Design Schema
 
- 
- 
-## Item CLasses
+### Item CLasses
 
 - Stationery
 - Office furniture
