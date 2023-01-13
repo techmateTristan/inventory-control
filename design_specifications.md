@@ -5,7 +5,8 @@ These specifications are derived from a spreadsheet that currently
  
 > Data is like garbage - you'd better know what you're 
 > going to do with it before you collect it
-> -Anon
+>
+> Anon
  
 ## Iterative Design Schema
 
