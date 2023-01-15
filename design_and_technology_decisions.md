@@ -1,4 +1,4 @@
-# Tooling Decisions
+# Design and Technology Decisions
 
 ## Data Persistence Layer
 
