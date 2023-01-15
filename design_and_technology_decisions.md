@@ -35,5 +35,8 @@ Apache CouchDB seems an excellent alternative and has added benefits:
 
 2. Django pros/ cons
 
-[relevent post]
-(http://leok.me/2013/05/02/what-you-need-to-know-couchdb-django/)
+[relevent post](http://leok.me/2013/05/02/what-you-need-to-know-couchdb-django/)
+
+Decided to go with NodeJS 
+1. NodeJS has a package designed to work with couchdb
+2. Excellent tutorial series by [Travery Media](https://www.youtube.com/watch?v=nlqv9Np3iAU) 
