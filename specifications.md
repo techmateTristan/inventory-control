@@ -1,13 +1,13 @@
 # Specifications
 
-# Technology Stack
+## Technology Stack
 
 - Database: Apache Couchdb	
 - Middleware: (Node) Express, couchdb-node
 - Utility: (Node) body-parser, 
 - Frontend: (Node) EJS template engine, HTML5 
  
-# Design
+## Design
 
 These specifications are derived from a spreadsheet that currently 
  works as an inventory, with some additions
@@ -17,7 +17,7 @@ These specifications are derived from a spreadsheet that currently
 >
 > Anon
  
-## Iterative Design Schema
+### Iterative Design Specifications
 
 ### Item CLasses
 
