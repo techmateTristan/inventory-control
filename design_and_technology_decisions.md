@@ -5,10 +5,15 @@
 ### SQL or NoSQL
 
 Favour NoSQL for the folowing reasons:
-- Less mental overheads 
-- no JOINS / UNIONS
-- single table - no entity relations
+- Less mental overheads re using SQL 
+- no JOINS / UNIONS 
+- ~~single table~~ - some whole / part relations
 - ragged table structure / variable number of columns per row
+
+Disadvantages of NoSQL
+- less flexibilty in design comapred to normalised schema
+- following on - view desgn needs to inform data model
+
 
 ### MongoDB or CouchDB
 
