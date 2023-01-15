@@ -68,20 +68,21 @@ NB 'req' field = 'required' refers to mandatory fields in frontend forms, not th
 | os     |             | N |          | Operating System |
 |        | update_date | N | string   | YYYY-MM-DD; last OS update time |
 | maintenance |		   | N |  	      | maintenance status | rule: owner is TechMate |
-         | pending     | Y | Boolean  | requires maintenance job |
-         | date_logged | Y | string   | YYYY-MM-DD format | 
-		 | job_desc    | Y | string   | Full description of maintenance job(s) |
-		 | sanitise    | Y | Boolean  | remove all personal data |
-		 | sanitised   | Y | Boolean  | all personal data removed | e.g. factory reset - put details jobs_desc | 
-		 | audit 	   | Y | Boolean  | verify data security ok |
-		 | audited     | Y | Boolean  | verify data security ok |
-		 | debloat     | Y | Boolean  | remove unnecessary apps |
+|        | pending     | Y | Boolean  | requires maintenance job |
+|        | date_logged | Y | string   | YYYY-MM-DD format | 
+|		 | job_desc    | Y | string   | Full description of maintenance job(s) |
+|		 | sanitise    | Y | Boolean  | remove all personal data |
+|		 | sanitised   | Y | Boolean  | all personal data removed | e.g. factory reset - put details jobs_desc | 
+|		 | audit 	   | Y | Boolean  | verify data security ok |
+|		 | audited     | Y | Boolean  | verify data security ok |
+|		 | debloat     | Y | Boolean  | remove unnecessary apps |
 | client_job |         | N |          |                   | rule: owner is a client
-         | pending     | Y | Boolean  | requires maintenance job |
-         | date_logged | Y | string   | YYYY-MM-DD format | date client submitted for fix |
-         | date_pending | Y | string  | YYYY-MM-DD format | date client submitted for fix |
-		 | problem_desc | Y | string  | general description from client | 
-		 | job_desc    | Y | string   | Full assessment of maintenance job(s) |
+|        | pending     | Y | Boolean  | requires maintenance job |
+|        | date_logged | Y | string   | YYYY-MM-DD format | date client submitted for fix |
+|        | date_pending | Y | string  | YYYY-MM-DD format | date client submitted for fix |
+|        | date_pending | Y | string  | YYYY-MM-DD format | date client submitted for fix |
+|		 | problem_desc | Y | string  | general description |from client| | 
+|		 | job_desc    | Y | string   | Full assessment of maintenance job(s) |
 
  
 
