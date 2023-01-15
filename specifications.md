@@ -67,7 +67,7 @@ NB 'req' field = 'required' refers to mandatory fields in frontend forms, not th
 | form_factor |        | Y | string   | laptop, desktop, tablet, phone, other |
 | os     |             | N |          | Operating System |
 |        | update_date | N | string   | YYYY-MM-DD; last OS update time |
-| maintenance |		   | N |  	      | maintenance status | rule: owner is TechMate
+| maintenance |		   | N |  	      | maintenance status | rule: owner is TechMate |
          | pending     | Y | Boolean  | requires maintenance job |
          | date_logged | Y | string   | YYYY-MM-DD format | 
 		 | job_desc    | Y | string   | Full description of maintenance job(s) |
