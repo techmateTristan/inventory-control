@@ -79,10 +79,12 @@ NB 'req' field = 'required' refers to mandatory fields in frontend forms, not th
 | client_job |         | N |          |                   | rule: owner is a client
 |        | pending     | Y | Boolean  | requires maintenance job |
 |        | date_logged | Y | string   | YYYY-MM-DD format | date client submitted for fix |
-|        | date_pending | Y | string  | YYYY-MM-DD format | date client submitted for fix |
-|        | date_pending | Y | string  | YYYY-MM-DD format | date client submitted for fix |
+|        | date_pending | Y | string  | YYYY-MM-DD format | estimated client pickup  |
 |		 | problem_desc | Y | string  | general description |from client| | 
-|		 | job_desc    | Y | string   | Full assessment of maintenance job(s) |
+|		 | job_desc    | Y | string   | Full assessment of maintenance job(s), and progress |
+|        | completed   | Y | Boolean  | 
+|		 | outcome     | Y | string   | description of work done and result | dependent on completed=true
+|		 | success	   | Y | string   | Yes / Partial / No | dependent on completed=true
 
  
 
