@@ -1,4 +1,4 @@
-# Design and Techno Decisions
+# Design and Technology Decisions
 
 ## Data Persistence Layer
 
