@@ -1,4 +1,13 @@
-# Design Specifications
+# Specifications
+
+# Technology Stack
+
+- Database: Apache Couchdb	
+- Middleware: (Node) Express, couchdb-node
+- Utility: (Node) body-parser, 
+- Frontend: (Node) EJS template engine, HTML5 
+ 
+# Design
 
 These specifications are derived from a spreadsheet that currently 
  works as an inventory, with some additions
@@ -49,15 +58,16 @@ These specifications are derived from a spreadsheet that currently
 
 ### Specific to Devices
 
-| field  |req| datatype | field description | additional |
-|--------|---|----------|-------------------|------------|
-| owner_name | Y | string | techmate or client |
-| owner_email | N | string |
-| owner_phone | N | string |
-| alt_id | Y | string | unique human-friendly indentifer or name for item | e.g. "Penny", "NC8051" |
-| form_factor | Y | string | laptop, desktop, tablet, phone, other |
-| os | N | string |Operating System |
-| os_update_date | N | string |YYYY-MM-DD; last OS update time |
+| field  |Nested field |req| datatype | field description | additional |
+|--------|-------------|---|----------|-------------------|------------|
+| owner  |		       | Y | string   | | 
+|        | name        | Y | string   | TechMate or client |
+| 	     | email       | N | string   |
+|        | phone       | N | string   |
+| alt_id |             | Y | string   | unique human-friendly indentifer or name for item | e.g. "Penny", "NC8051" |
+| form_factor || Y | string | laptop, desktop, tablet, phone, other |
+| os     |             | N | string |Operating System |
+|        | update_date | N | string |YYYY-MM-DD; last OS update time |
 | sanitized | N | Boolean | data wipe performed re. personal data |
 | reset | N | Boolean | Factory Reset or bloatware removed |
  
