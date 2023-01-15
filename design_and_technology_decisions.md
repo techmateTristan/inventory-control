@@ -1,4 +1,4 @@
-# Design and Technology Decisions
+# Design and Techno Decisions
 
 ## Data Persistence Layer
 
@@ -31,11 +31,7 @@ Apache CouchDB seems an excellent alternative and has added benefits:
 
 ### NodeJS Express or Python Django
 
-1. Express pros / cons
-
-2. Django pros/ cons
-
-[relevent post](http://leok.me/2013/05/02/what-you-need-to-know-couchdb-django/)
+[relevent post on Django](http://leok.me/2013/05/02/what-you-need-to-know-couchdb-django/)
 
 Decided to go with NodeJS 
 1. NodeJS has a package designed to work with couchdb
