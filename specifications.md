@@ -21,18 +21,18 @@ These specifications are derived from a spreadsheet that currently
 
 ### Item CLasses
 
-- Stationery
-- Office furniture
-- Office equipment
-- Connectors
-- Miscellaneous technology
-- Miscellaneous general
-- devices
+- Devices
 	- Laptops
 	- Desktops
 	- Tablets
 	- Phones
 	- Other 
+- Stationery
+- Office furniture
+- Tools 
+- Connectors
+- Miscellaneous technology
+- Miscellaneous general
 
 ### Common to all Item Classes
 
@@ -94,12 +94,12 @@ NB 'req' field = 'required' refers to mandatory fields in frontend forms, not th
 | item-class |          | 			   | Y | string  |                   | RULE:item-class==connector |          
 | 		 | type			|              | Y | string  | power / data / AV / audio | RULE:only 4 options; AV include video only e.g. VGA |  
 |        | length       |              | N | string  |                   | in approx. metres
-|	     | terminal_1   |              | Y | 		 |                   | CONVENTION: computer end when relevent
-|        | 				| standard     | Y | string  | e.g. USB Type-A   |
-|        |              | gender       | Y | string  | Male / female     | 
-|	     | terminal_2   |              | Y | 		 |                   | CONVENTION: smartphone end when relevent
-|        | 				| standard     | Y | string  | e.g USB Type-micro|        
-|        |              | gender       | Y | string  | Male / female     |
+|	     | terminal_1   |              | N | 		 |                   | CONVENTION: computer end when relevent
+|        | 				| standard     | N | string  | e.g. USB Type-A   |
+|        |              | gender       | N | string  | Male / female     | 
+|	     | terminal_2   |              | N | 		 |                   | CONVENTION: smartphone end when relevent
+|        | 				| standard     | N | string  | e.g USB Type-micro|        
+|        |              | gender       | N | string  | Male / female     |
 
-										 
+		 
     
