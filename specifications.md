@@ -1,6 +1,6 @@
 # Specifications
 
-## Technology Stack
+### Technology Stack
 
 - Database: Apache Couchdb	
 - Middleware: (Node) Express, couchdb-node
@@ -16,8 +16,6 @@ These specifications are derived from a spreadsheet that currently
 > going to do with it before you collect it
 >
 > Anon
- 
-### Iterative Design Specifications
 
 ### Item CLasses
 
@@ -34,6 +32,23 @@ These specifications are derived from a spreadsheet that currently
 - Miscellaneous technology
 - Miscellaneous general
 
+## Views
+
+- Overview / Summary
+- Devices 
+- In-Use
+- Pending Donation or sale
+- Requiring Maintenance / Jobs
+- Connectors filtered by standards 
+ 
+## Input Forms 
+
+- Splash + item-class selector
+- Hide irrelevent and less used fields
+- ability to expand to edit all possible fields
+
+## Database Schema 
+ 
 ### Common to all Item Classes
 
 NB 'req' field = 'required' refers to mandatory fields in frontend forms, not the Database
