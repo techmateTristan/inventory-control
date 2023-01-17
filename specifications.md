@@ -17,7 +17,10 @@ These specifications are derived from a spreadsheet that currently
 >
 > Anon
 
-### Item CLasses
+### Item Classes
+
+This design has had a lot of consideration as it relates to the 
+problem domain and is frozen / locked in.<br/> 
 
 - Devices
 	- Laptops
@@ -34,6 +37,8 @@ These specifications are derived from a spreadsheet that currently
 
 ## Views
 
+This design is still in review<br/>
+
 - Overview / Summary
 - Devices 
 - In-Use
@@ -42,6 +47,10 @@ These specifications are derived from a spreadsheet that currently
 - Connectors filtered by standards 
  
 ## Input Forms 
+
+This design is still in review<br/>
+
+A series of wireframes / HTML prototypes would follow.
 
 - Splash + item-class selector
 - Hide irrelevent and less used fields
