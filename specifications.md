@@ -73,7 +73,6 @@ NB 'req' field = 'required' refers to mandatory fields in frontend forms, not th
 |          | in_use       | Y | Boolean  |	                 |  
 |          | location     | N | string   |                   | RULE: item either has a storage location OR in use==true |  
 | maker    |              | N | string   |
-| Manufacturer |          | N | string   |
 | model    |              | N | string   | retail name       |
 | product_id |            | N | string   | manufacturer ID   |
 | working  |              | N | string   |                   | RULE: Yes / No / Unknown |
