@@ -4,4 +4,4 @@
 
 - Classes are laid out from most to least important
 
-![items.jpg](../image_files/home/items/items.jpg)
+![items.jpg](..image_files/home/items/items.jpg)
