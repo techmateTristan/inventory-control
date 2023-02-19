@@ -6,4 +6,5 @@
 	2. "Reports" provides formatted and filtered listing suitable for publishing
 	3. "Actions" provides for specific guided actions e.g. donating a device, updating maintenace status etc
 
+![home.jpg](../image_files/home/home.jpg)
 
