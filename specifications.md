@@ -42,7 +42,7 @@ This design is still in review<br/>
 - Overview / Summary
 - Devices 
 - In-Use
-- Pending Donation or sale
+- Pending Donation, Loan or sale
 - Requiring Maintenance / Jobs
 - Connectors filtered by standards 
  
